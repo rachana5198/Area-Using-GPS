@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "363389843462",
+    "firebase_url": "https://ethereal-icon-198304.firebaseio.com",
+    "project_id": "ethereal-icon-198304",
+    "storage_bucket": "ethereal-icon-198304.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:363389843462:android:6e608b6571d2f701",
+        "android_client_info": {
+          "package_name": "com.example.admin.lakshya"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "363389843462-j1btcqnukgqdam424bg4q5kceocp7ios.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.admin.lakshya",
+            "certificate_hash": "d906c9335b87c6b978e4222ee098016fbeb7e564"
+          }
+        },
+        {
+          "client_id": "363389843462-ku02jgbn9728u40b6cbrm98ikcnqeln6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrFBHSzk8C_VY0mSHjB3nxGxDR_lXK6S0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "363389843462-ku02jgbn9728u40b6cbrm98ikcnqeln6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Enter Details"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:background="@color/colorPrimaryDark"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:id="@+id/editeText1"
+        android:layout_marginTop="15sp"
+        android:layout_marginRight="16sp"
+        android:layout_marginLeft="16sp"
+        android:hint="Enter Name" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:layout_marginTop="15sp"
+        android:id="@+id/editeText2"
+        android:layout_marginRight="16sp"
+        android:layout_marginLeft="16sp"
+        android:hint="Survey Number" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:id="@+id/editeText3"
+
+        android:layout_marginTop="15sp"
+        android:layout_marginRight="16sp"
+        android:layout_marginLeft="16sp"
+        android:hint="Locality" />
+
+    <EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:inputType="textPersonName"
+    android:layout_marginTop="15sp"
+        android:id="@+id/editeText4"
+        android:layout_marginRight="16sp"
+    android:layout_marginLeft="16sp"
+    android:hint="Type" />
+
+    <Button
+        android:id="@+id/saveData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/colorPrimary"
+        android:text="SAVE"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+</LinearLayout>

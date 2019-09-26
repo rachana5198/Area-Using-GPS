@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_areacalculation"
+            android:icon="@drawable/areacalculation"
+            android:title="Area Calculation" />
+        <item
+            android:id="@+id/nav_database"
+            android:icon="@drawable/database"
+            android:title="Database" />
+        <item
+            android:id="@+id/nav_survey"
+            android:icon="@drawable/survey"
+            android:title="Survey" />
+        <item
+            android:id="@+id/nav_onmap"
+            android:icon="@drawable/onmap"
+            android:title="On Map" />
+        <item
+            android:id="@+id/nav_trespassing"
+            android:icon="@drawable/trespassing"
+            android:title="Trespassing" />
+    </group>
+
+</menu>
